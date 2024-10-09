@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="Main.css">
+    <link rel="stylesheet" href="bootstrap-5.3.3-examples/assets/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="bootstrap-icons-1.11.3/font/bootstrap-icons.min.css">
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+</head>
+<body>
+
+    <!-- Navbar -->
+    <nav class="navbar fixed-top">
+        <button class="navbar-btn" onclick="toggleSidebar()">Dashboard</button>
+        <button class="navbar-btn" onclick="toggleSidebar1()">Templates</button>
+        <button class="navbar-btn" onclick="toggleSidebar2()">Apps</button>
+        <button class="navbar-btn" onclick="toggleSidebar3()">Pages</button>
+        <button class="navbar-btn" onclick="toggleSidebar4()">Layouts</button>
+        <button class="navbar-btn" onclick="toggleSidebar5()">UI</button>
+        <button class="navbar-btn" onclick="toggleSidebar6()">Forms</button>
+        <button class="navbar-btn" onclick="toggleSidebar7()">Others</button>
+        <button class="navbar-btn"><i class="bi bi-person-fill"></i>Profile</button>
+    </nav>
+
+    <!-- Sidebar -->
+    <div id="sidebar" class="sidebar">
+        <a href="javascript:void(0)" class="close-btn" style="top: 25px;" onclick="toggleSidebar()">&times;</a>
+        <a href="#"><i class="bi bi-cart-plus"></i>E-Commerce</a>
+        <a href="#"><i class="bi bi-diagram-3-fill"></i>Crypto</a>
+        <a href="#"><i class="bi bi-currency-dollar"></i>Sales</a>
+    </div>
+    <div id="sidebar1" class="sidebar">
+        <a href="javascript:void(0)" class="close-btn" style="top: 25px;" onclick="toggleSidebar1()">&times;</a>
+        <a href="#"><i class="bi bi-arrow-up"></i>Vertical</a>
+        <a href="#"><i class="bi bi-arrow-left"></i>Horizontal</a>
+    </div>
+    <div id="sidebar2" class="sidebar">
+        <a href="javascript:void(0)" class="close-btn" style="top: 25px;" onclick="toggleSidebar2()">&times;</a>
+        <a href="#"><i class="bi bi-clipboard2-check-fill"></i>ToDo</a>
+        <a href="#"><i class="bi bi-person-lines-fill"></i>Contacts</a>
+        <a href="#"><i class="bi bi-envelope-at-fill"></i>Email</a>
+        <a href="#"><i class="bi bi-chat-left-text-fill"></i>Chat</a>
+        <a href="#"><i class="bi bi-file-earmark-text"></i>Kanban</a>
+        <a href="#"><i class="bi bi-briefcase-fill"></i>Project</a>
+        <a href="#"><i class="bi bi-calendar-day-fill"></i></i>Calender</a>
+    </div>
+    <div id="sidebar3" class="sidebar">
+        <a href="javascript:void(0)" class="close-btn" style="top: 25px;" onclick="toggleSidebar3()">&times;</a>
+        <a href="#"><i class="bi bi-newspaper"></i></i>News Feed</a>
+        <a href="#"><i class="bi bi-bounding-box-circles"></i>Social Feed</a>
+        <a href="#"><i class="bi bi-clipboard2"></i>Invoice</a>
+        <a href="#"><i class="bi bi-layout-three-columns"></i>Timeline</a>
+        <a href="#"><i class="bi bi-person-fill-gear"></i>Account Settings</a>
+        <a href="#"><i class="bi bi-person"></i>Users</a>
+        <a href="#"><i class="bi bi-images"></i>Gallery</a>
+        <a href="#"><i class="bi bi-search"></i>Search</a>
+        <a href="#"><i class="bi bi-lock-fill"></i>Authentication</a>
+        <a href="#"><i class="bi bi-exclamation-triangle-fill"></i>Error</a>
+        <a href="#"><i class="bi bi-file-earmark-text"></i>Others</a>
+        <a href="#"><i class="bi bi-cash-stack"></i>Pricing</a>
+    </div>
+    <div id="sidebar4" class="sidebar">
+        <a href="javascript:void(0)" class="close-btn" style="top: 25px;" onclick="toggleSidebar4()">&times;</a>
+        <a href="#"><i class="bi bi-layout-three-columns"></i></i>Page Layouts</a>
+        <a href="#"><i class="bi bi-list"></i>Navbar</a>
+        <a href="#"><i class="bi bi-arrows-vertical"></i>Vertical Nav</a>
+        <a href="#"><i class="bi bi-arrows"></i>Horizontal Nav</a>
+        <a href="#"><i class="bi bi-h-square-fill"></i>Page Headers</a>
+        <a href="#"><i class="bi bi-arrow-down"></i>Footers</a>
+    </div>
+
+    <script>
+function toggleSidebar() {
+    var sidebar = document.getElementById("sidebar");
+    if (sidebar.style.width === "250px") {
+        sidebar.style.width = "0";
+    } else {
+        sidebar.style.width = "250px";
+    }
+}
+function toggleSidebar1() {
+    var sidebar = document.getElementById("sidebar1");
+    if (sidebar.style.width === "250px") {
+        sidebar.style.width = "0";
+    } else {
+        sidebar.style.width = "250px";
+    }
+}
+function toggleSidebar2() {
+    var sidebar = document.getElementById("sidebar2");
+    if (sidebar.style.width === "250px") {
+        sidebar.style.width = "0";
+    } else {
+        sidebar.style.width = "250px";
+    }
+}
+function toggleSidebar3() {
+    var sidebar = document.getElementById("sidebar3");
+    if (sidebar.style.width === "250px") {
+        sidebar.style.width = "0";
+    } else {
+        sidebar.style.width = "250px";
+    }
+}
+function toggleSidebar4() {
+    var sidebar = document.getElementById("sidebar4");
+    if (sidebar.style.width === "250px") {
+        sidebar.style.width = "0";
+    } else {
+        sidebar.style.width = "250px";
+    }
+}
+
+    </script>
+
+    <script src="script.js"></script>
+    
+</body>
+</html>

@@ -1,0 +1,63 @@
+/* Style for Navbar */
+.navbar {
+    background-color: #333;
+    color: white;
+    padding: 15px;
+    text-align: right;
+}
+
+.navbar-btn {
+    background-color: #333;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+/* Sidebar styling */
+.sidebar {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    top: 25px;
+    left: 0;
+    background-color: #111;
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 60px;
+}
+
+.sidebar a {
+    padding: 10px 15px;
+    text-decoration: none;
+    font-size: 20px;
+    color: white;
+    display: block;
+    transition: 0.3s;
+}
+
+.sidebar a:hover {
+    background-color: #575757;
+}
+
+.sidebar .close-btn {
+    position: absolute;
+    top: 0;
+    right: 20px;
+    font-size: 30px;
+}
+
+/* Main content */
+.main-content {
+    margin-left: 15px;
+    padding: 20px;
+    font-size: 18px;
+}
+
+/* Ensure body takes full height */
+html, body {
+    height: 100%;
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
